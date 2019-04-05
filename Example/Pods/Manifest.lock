@@ -1,0 +1,16 @@
+PODS:
+  - XJTools (0.1.0)
+
+DEPENDENCIES:
+  - XJTools (from `../`)
+
+EXTERNAL SOURCES:
+  XJTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XJTools: 7a5e58a38bd8287a810c6ea002a202e32276de8d
+
+PODFILE CHECKSUM: efe0a332b57538f0c9ec5244fa39dc270d536f0e
+
+COCOAPODS: 1.7.0.beta.3
