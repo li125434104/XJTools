@@ -11,6 +11,13 @@
 #endif
 
 #import "MYKitDefinition.h"
+#import "NSData+YYAdd.h"
+#import "NSString+Contains.h"
+#import "NSString+Regular.h"
+#import "NSString+Size.h"
+#import "NSString+Trims.h"
+#import "NSString+URLEncode.h"
+#import "XJFoundationKit.h"
 
 FOUNDATION_EXPORT double XJToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char XJToolsVersionString[];
