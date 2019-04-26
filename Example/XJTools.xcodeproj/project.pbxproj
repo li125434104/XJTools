@@ -23,9 +23,13 @@
 		621FADA922702D8E00ECCE94 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FADA822702D8E00ECCE94 /* NSString+Regular.m */; };
 		621FADAF2270619B00ECCE94 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FADAE2270619B00ECCE94 /* NSString+Size.m */; };
 		621FADB2227069F300ECCE94 /* NSString+Trims.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FADB1227069F300ECCE94 /* NSString+Trims.m */; };
+		62616C6B227295DB00277D07 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 62616C6A227295DB00277D07 /* NSDate+Addition.m */; };
+		62616C6F2272E51900277D07 /* NSNumber+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62616C6E2272E51900277D07 /* NSNumber+Extention.m */; };
+		62AA1AB72273013200F32BF5 /* NSArray+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA1AB62273013200F32BF5 /* NSArray+Extention.m */; };
 		62B047F8227160BC0023C098 /* NSString+Contains.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B047F7227160BC0023C098 /* NSString+Contains.m */; };
 		62B047FB227189E80023C098 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B047FA227189E80023C098 /* NSString+URLEncode.m */; };
 		62B047FF2271B21F0023C098 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B047FD2271B21F0023C098 /* NSData+YYAdd.m */; };
+		62B048032271B65B0023C098 /* NSURL+Param.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B048022271B65B0023C098 /* NSURL+Param.m */; };
 		69A5E6B262FED198FE4D2A10 /* Pods_XJTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E61EFC92F389665934D08 /* Pods_XJTools_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -73,12 +77,20 @@
 		621FADB0227069F300ECCE94 /* NSString+Trims.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Trims.h"; sourceTree = "<group>"; };
 		621FADB1227069F300ECCE94 /* NSString+Trims.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trims.m"; sourceTree = "<group>"; };
 		621FD5B9161B9CE84FD4465D /* XJTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJTools.podspec; path = ../XJTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62616C69227295DB00277D07 /* NSDate+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
+		62616C6A227295DB00277D07 /* NSDate+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
+		62616C6D2272E51900277D07 /* NSNumber+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Extention.h"; sourceTree = "<group>"; };
+		62616C6E2272E51900277D07 /* NSNumber+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Extention.m"; sourceTree = "<group>"; };
+		62AA1AB52273013200F32BF5 /* NSArray+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extention.h"; sourceTree = "<group>"; };
+		62AA1AB62273013200F32BF5 /* NSArray+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extention.m"; sourceTree = "<group>"; };
 		62B047F6227160BC0023C098 /* NSString+Contains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Contains.h"; sourceTree = "<group>"; };
 		62B047F7227160BC0023C098 /* NSString+Contains.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Contains.m"; sourceTree = "<group>"; };
 		62B047F9227189E80023C098 /* NSString+URLEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
 		62B047FA227189E80023C098 /* NSString+URLEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
 		62B047FD2271B21F0023C098 /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
 		62B047FE2271B21F0023C098 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		62B048012271B65B0023C098 /* NSURL+Param.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+Param.h"; sourceTree = "<group>"; };
+		62B048022271B65B0023C098 /* NSURL+Param.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Param.m"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		931963DD620AD93D5A149061 /* Pods-XJTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJTools_Example.release.xcconfig"; path = "Target Support Files/Pods-XJTools_Example/Pods-XJTools_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +221,11 @@
 			isa = PBXGroup;
 			children = (
 				621FADAC2270609B00ECCE94 /* XJFoundationKit.h */,
+				62AA1AB42273008100F32BF5 /* NSArray */,
+				62616C6C2272E4F300277D07 /* NSNumber */,
+				62616C68227289AF00277D07 /* NSUserDefault */,
+				62616C67227289A300277D07 /* NSDate */,
+				62B048002271B63B0023C098 /* NSURL */,
 				62B047FC2271B1980023C098 /* NSData */,
 				621FADA622702CAB00ECCE94 /* NSString */,
 			);
@@ -232,6 +249,40 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		62616C67227289A300277D07 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				62616C69227295DB00277D07 /* NSDate+Addition.h */,
+				62616C6A227295DB00277D07 /* NSDate+Addition.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		62616C68227289AF00277D07 /* NSUserDefault */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSUserDefault;
+			sourceTree = "<group>";
+		};
+		62616C6C2272E4F300277D07 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				62616C6D2272E51900277D07 /* NSNumber+Extention.h */,
+				62616C6E2272E51900277D07 /* NSNumber+Extention.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		62AA1AB42273008100F32BF5 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				62AA1AB52273013200F32BF5 /* NSArray+Extention.h */,
+				62AA1AB62273013200F32BF5 /* NSArray+Extention.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
 		62B047FC2271B1980023C098 /* NSData */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +290,15 @@
 				62B047FD2271B21F0023C098 /* NSData+YYAdd.m */,
 			);
 			path = NSData;
+			sourceTree = "<group>";
+		};
+		62B048002271B63B0023C098 /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				62B048012271B65B0023C098 /* NSURL+Param.h */,
+				62B048022271B65B0023C098 /* NSURL+Param.m */,
+			);
+			path = NSURL;
 			sourceTree = "<group>";
 		};
 		86B08013CD666E2B812D3581 /* Pods */ = {
@@ -420,13 +480,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XJAppDelegate.m in Sources */,
+				62AA1AB72273013200F32BF5 /* NSArray+Extention.m in Sources */,
 				6003F5A7195388D20070C39A /* XJViewController.m in Sources */,
 				62B047FF2271B21F0023C098 /* NSData+YYAdd.m in Sources */,
 				621FADA922702D8E00ECCE94 /* NSString+Regular.m in Sources */,
 				62B047FB227189E80023C098 /* NSString+URLEncode.m in Sources */,
+				62616C6B227295DB00277D07 /* NSDate+Addition.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				621FADAF2270619B00ECCE94 /* NSString+Size.m in Sources */,
 				621FADB2227069F300ECCE94 /* NSString+Trims.m in Sources */,
+				62B048032271B65B0023C098 /* NSURL+Param.m in Sources */,
+				62616C6F2272E51900277D07 /* NSNumber+Extention.m in Sources */,
 				62B047F8227160BC0023C098 /* NSString+Contains.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

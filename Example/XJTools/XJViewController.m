@@ -7,6 +7,7 @@
 //
 
 #import "XJViewController.h"
+#import "XJFoundationKit.h"
 
 @interface XJViewController ()
 
@@ -17,7 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSDate *lastDate = [NSDate dateFromString:@"2019-04-26 14:01:20" setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSString *str = [NSDate timeIntervalFromLastTime:lastDate];
+    NSLog(@"str is: %@",str);
+    
+    NSNumber *number = [NSNumber numberWithFloat:2.6563];
+    number = [number doRoundWithDigit:2];
+    NSLog(@"number is: %@",number);
 }
 
 - (void)didReceiveMemoryWarning
