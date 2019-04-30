@@ -8,6 +8,7 @@
 
 #import "XJViewController.h"
 #import "XJFoundationKit.h"
+#import "XJUIKit.h"
 
 @interface XJViewController ()
 
@@ -26,6 +27,22 @@
     NSNumber *number = [NSNumber numberWithFloat:2.6563];
     number = [number doRoundWithDigit:2];
     NSLog(@"number is: %@",number);
+    
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 120, 40)];
+    textField.backgroundColor = [UIColor redColor];
+    textField.maxLength = 5;
+    textField.leftPadding = 15;
+    textField.placeholder = @"hello";
+    textField.placeHolderColor = [UIColor greenColor];
+    [self.view addSubview:textField];
+    
+    
+
+}
+- (IBAction)alertBtnClick:(UIButton *)sender {
+    [UIAlertController showAlertInViewController:self withTitle:@"这是一个alert" message:@"我们这是一个测试哦" cancelButtonTitle:@"取消" destructiveButtonTitle:@"确定" otherButtonTitles:@[@"按钮1", @"按钮2"] tapBlock:^(UIAlertController * _Nonnull controller, UIAlertAction * _Nonnull action, NSInteger buttonIndex) {
+        NSLog(@"buttonIndex:%ld",buttonIndex);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

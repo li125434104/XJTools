@@ -22,6 +22,11 @@
 #import "NSString+URLEncode.h"
 #import "NSURL+Param.h"
 #import "XJFoundationKit.h"
+#import "UIAlertController+Blocks.h"
+#import "TableViewPlaceHolderDelegate.h"
+#import "UITableView+PlaceHolder.h"
+#import "UITextField+Category.h"
+#import "XJUIKit.h"
 
 FOUNDATION_EXPORT double XJToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char XJToolsVersionString[];
