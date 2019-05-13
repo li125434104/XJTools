@@ -21,6 +21,7 @@
 #import "NSObject+AssociatedObject.h"
 #import "NSObject+Swizzle.h"
 #import "NSURL+Param.h"
-#import "NSArray+Extention.h"
+//#import "NSArray+Extention.h"
+#import "NSData+YYAdd.h"
 
 #endif /* XJFoundationKit_h */

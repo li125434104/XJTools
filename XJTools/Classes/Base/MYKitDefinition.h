@@ -53,11 +53,17 @@ isIPhoneX = isDeviceX && ITG_DEVICE_IPHONE;\
 (ITG_DEVICE_STATUS_BAR_ORIENTATION == UIDeviceOrientationLandscapeRight || ITG_DEVICE_STATUS_BAR_ORIENTATION == UIDeviceOrientationLandscapeLeft)
 
 // 像素
-#define ITG_DEFALUT_SCREEN_WIDTH     [[UIScreen mainScreen] bounds].size.width
-#define ITG_DEFALUT_SCREEN_HEIGHT    [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth     [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight    [[UIScreen mainScreen] bounds].size.height
 #define ITG_DEFALUT_STATUSBAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
 #define ITG_ORIENTATION_SCREEN_WIDTH   MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
 #define ITG_ORIENTATION_SCREEN_HEIGHT  MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+
+#define kStateBar  (kScreenHeight >= 812.0 ? 44 : 20)            //状态栏高度
+#define kNavigationBar (44+kStateBar)       //导航栏的高度
+#define SafeAreaBottomHeight (kScreenHeight >= 812.0 ? 39 : 0)
+#define kTabbar  (SafeAreaBottomHeight+49)             //工具栏的高度
+#define kNavDistance ios7?64:44    //顶部的高度
 
 // 默认设计稿像素
 #define ITG_DEFALUT_PHONE_SCALE_PX 375.0
