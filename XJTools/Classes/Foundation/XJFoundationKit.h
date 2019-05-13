@@ -12,6 +12,15 @@
 #import "NSString+Regular.h"
 #import "NSString+Size.h"
 #import "NSString+Trims.h"
+#import "NSString+Contains.h"
+#import "NSString+URLEncode.h"
 #import "NSData+YYAdd.h"
+#import "NSNumber+Extention.h"
+#import "NSDate+Addition.h"
+#import "NSObject+Addition.h"
+#import "NSObject+AssociatedObject.h"
+#import "NSObject+Swizzle.h"
+#import "NSURL+Param.h"
+#import "NSArray+Extention.h"
 
 #endif /* XJFoundationKit_h */
