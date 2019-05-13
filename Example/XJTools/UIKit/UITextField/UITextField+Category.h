@@ -20,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) CGFloat leftPadding;
 
 /**
+ *  modify default placeholder padding
+ */
+@property (assign, nonatomic) CGFloat rightPadding;
+/**
  *  modify default placeholder color
  */
 @property (strong,nonatomic) UIColor *placeHolderColor;

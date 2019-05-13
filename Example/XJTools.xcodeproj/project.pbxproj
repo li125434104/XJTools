@@ -23,16 +23,14 @@
 		621FADA922702D8E00ECCE94 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FADA822702D8E00ECCE94 /* NSString+Regular.m */; };
 		621FADAF2270619B00ECCE94 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FADAE2270619B00ECCE94 /* NSString+Size.m */; };
 		621FADB2227069F300ECCE94 /* NSString+Trims.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FADB1227069F300ECCE94 /* NSString+Trims.m */; };
-		6224DE942276E0D1002ED972 /* UITableView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224DE932276E0D1002ED972 /* UITableView+PlaceHolder.m */; };
-		6224DE9F2276E990002ED972 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224DE9E2276E990002ED972 /* UIAlertController+Blocks.m */; };
 		62616C6B227295DB00277D07 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 62616C6A227295DB00277D07 /* NSDate+Addition.m */; };
 		62616C6F2272E51900277D07 /* NSNumber+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62616C6E2272E51900277D07 /* NSNumber+Extention.m */; };
-		629EB8AA2275A38D00D25EFC /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 629EB8A92275A38D00D25EFC /* UITextField+Category.m */; };
 		62AA1AB72273013200F32BF5 /* NSArray+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA1AB62273013200F32BF5 /* NSArray+Extention.m */; };
 		62B047F8227160BC0023C098 /* NSString+Contains.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B047F7227160BC0023C098 /* NSString+Contains.m */; };
 		62B047FB227189E80023C098 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B047FA227189E80023C098 /* NSString+URLEncode.m */; };
 		62B047FF2271B21F0023C098 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B047FD2271B21F0023C098 /* NSData+YYAdd.m */; };
 		62B048032271B65B0023C098 /* NSURL+Param.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B048022271B65B0023C098 /* NSURL+Param.m */; };
+		62D9F20D22782975007F1068 /* UIKit in Resources */ = {isa = PBXBuildFile; fileRef = 62D9F20C22782975007F1068 /* UIKit */; };
 		69A5E6B262FED198FE4D2A10 /* Pods_XJTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E61EFC92F389665934D08 /* Pods_XJTools_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -80,18 +78,10 @@
 		621FADB0227069F300ECCE94 /* NSString+Trims.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Trims.h"; sourceTree = "<group>"; };
 		621FADB1227069F300ECCE94 /* NSString+Trims.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trims.m"; sourceTree = "<group>"; };
 		621FD5B9161B9CE84FD4465D /* XJTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJTools.podspec; path = ../XJTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6224DE922276E0D1002ED972 /* UITableView+PlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+PlaceHolder.h"; sourceTree = "<group>"; };
-		6224DE932276E0D1002ED972 /* UITableView+PlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PlaceHolder.m"; sourceTree = "<group>"; };
-		6224DE962276E20A002ED972 /* TableViewPlaceHolderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewPlaceHolderDelegate.h; sourceTree = "<group>"; };
-		6224DE9D2276E990002ED972 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
-		6224DE9E2276E990002ED972 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		62616C69227295DB00277D07 /* NSDate+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
 		62616C6A227295DB00277D07 /* NSDate+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
 		62616C6D2272E51900277D07 /* NSNumber+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Extention.h"; sourceTree = "<group>"; };
 		62616C6E2272E51900277D07 /* NSNumber+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Extention.m"; sourceTree = "<group>"; };
-		629EB8A52275A02900D25EFC /* XJUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJUIKit.h; sourceTree = "<group>"; };
-		629EB8A82275A38D00D25EFC /* UITextField+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Category.h"; sourceTree = "<group>"; };
-		629EB8A92275A38D00D25EFC /* UITextField+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Category.m"; sourceTree = "<group>"; };
 		62AA1AB52273013200F32BF5 /* NSArray+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extention.h"; sourceTree = "<group>"; };
 		62AA1AB62273013200F32BF5 /* NSArray+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extention.m"; sourceTree = "<group>"; };
 		62B047F6227160BC0023C098 /* NSString+Contains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Contains.h"; sourceTree = "<group>"; };
@@ -102,6 +92,8 @@
 		62B047FE2271B21F0023C098 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
 		62B048012271B65B0023C098 /* NSURL+Param.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+Param.h"; sourceTree = "<group>"; };
 		62B048022271B65B0023C098 /* NSURL+Param.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Param.m"; sourceTree = "<group>"; };
+		62D59DB02289416B005CBD23 /* XJTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJTools.h; sourceTree = "<group>"; };
+		62D9F20C22782975007F1068 /* UIKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIKit; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		931963DD620AD93D5A149061 /* Pods-XJTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJTools_Example.release.xcconfig"; path = "Target Support Files/Pods-XJTools_Example/Pods-XJTools_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,7 +166,8 @@
 		6003F593195388D20070C39A /* Example for XJTools */ = {
 			isa = PBXGroup;
 			children = (
-				629EB8A422759FD900D25EFC /* UIKit */,
+				62D59DB02289416B005CBD23 /* XJTools.h */,
+				62D9F20C22782975007F1068 /* UIKit */,
 				621FADA422702C6C00ECCE94 /* Foundation */,
 				6003F59C195388D20070C39A /* XJAppDelegate.h */,
 				6003F59D195388D20070C39A /* XJAppDelegate.m */,
@@ -261,25 +254,6 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		6224DE912276E00E002ED972 /* UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				6224DE922276E0D1002ED972 /* UITableView+PlaceHolder.h */,
-				6224DE932276E0D1002ED972 /* UITableView+PlaceHolder.m */,
-				6224DE962276E20A002ED972 /* TableViewPlaceHolderDelegate.h */,
-			);
-			path = UITableView;
-			sourceTree = "<group>";
-		};
-		6224DE992276E6A1002ED972 /* UIAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				6224DE9D2276E990002ED972 /* UIAlertController+Blocks.h */,
-				6224DE9E2276E990002ED972 /* UIAlertController+Blocks.m */,
-			);
-			path = UIAlertController;
-			sourceTree = "<group>";
-		};
 		62616C67227289A300277D07 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,26 +277,6 @@
 				62616C6E2272E51900277D07 /* NSNumber+Extention.m */,
 			);
 			path = NSNumber;
-			sourceTree = "<group>";
-		};
-		629EB8A422759FD900D25EFC /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				629EB8A52275A02900D25EFC /* XJUIKit.h */,
-				6224DE992276E6A1002ED972 /* UIAlertController */,
-				6224DE912276E00E002ED972 /* UITableView */,
-				629EB8A72275A35E00D25EFC /* UITextField */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		629EB8A72275A35E00D25EFC /* UITextField */ = {
-			isa = PBXGroup;
-			children = (
-				629EB8A82275A38D00D25EFC /* UITextField+Category.h */,
-				629EB8A92275A38D00D25EFC /* UITextField+Category.m */,
-			);
-			path = UITextField;
 			sourceTree = "<group>";
 		};
 		62AA1AB42273008100F32BF5 /* NSArray */ = {
@@ -443,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D9F20D22782975007F1068 /* UIKit in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -533,12 +488,9 @@
 				6003F59E195388D20070C39A /* XJAppDelegate.m in Sources */,
 				62AA1AB72273013200F32BF5 /* NSArray+Extention.m in Sources */,
 				6003F5A7195388D20070C39A /* XJViewController.m in Sources */,
-				6224DE942276E0D1002ED972 /* UITableView+PlaceHolder.m in Sources */,
 				62B047FF2271B21F0023C098 /* NSData+YYAdd.m in Sources */,
 				621FADA922702D8E00ECCE94 /* NSString+Regular.m in Sources */,
-				629EB8AA2275A38D00D25EFC /* UITextField+Category.m in Sources */,
 				62B047FB227189E80023C098 /* NSString+URLEncode.m in Sources */,
-				6224DE9F2276E990002ED972 /* UIAlertController+Blocks.m in Sources */,
 				62616C6B227295DB00277D07 /* NSDate+Addition.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				621FADAF2270619B00ECCE94 /* NSString+Size.m in Sources */,

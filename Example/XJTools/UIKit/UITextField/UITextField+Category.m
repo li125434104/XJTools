@@ -12,6 +12,7 @@
 static const void *TextFieldInputLimitMaxLength = &TextFieldInputLimitMaxLength;
 static const void *leftPaddingKey= &leftPaddingKey;
 static const void *placeHolderColorKey = &placeHolderColorKey;
+static const void *rightPaddingKey= &rightPaddingKey;
 
 @implementation UITextField (Category)
 
@@ -64,11 +65,24 @@ static const void *placeHolderColorKey = &placeHolderColorKey;
     objc_setAssociatedObject(self,leftPaddingKey,[NSNumber numberWithFloat:leftPadding], OBJC_ASSOCIATION_ASSIGN);
 }
 
--(UIColor *)placeHolderColor {
+- (CGFloat)rightPadding {
+    return [objc_getAssociatedObject(self, rightPaddingKey) floatValue];
+}
+
+- (void)setRightPadding:(CGFloat)rightPadding {
+    CGRect frame = self.frame;
+    frame.size.width =rightPadding;
+    UIView *leftview = [[UIView alloc] initWithFrame:frame];
+    self.rightViewMode = UITextFieldViewModeAlways;
+    self.rightView = leftview;
+    objc_setAssociatedObject(self,rightPaddingKey,[NSNumber numberWithFloat:rightPadding], OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (UIColor *)placeHolderColor {
     return objc_getAssociatedObject(self, placeHolderColorKey);
 }
 
--(void)setPlaceHolderColor:(UIColor *)placeHolderColor{
+- (void)setPlaceHolderColor:(UIColor *)placeHolderColor {
     [self setValue:placeHolderColor forKeyPath:@"_placeholderLabel.textColor"];
     objc_setAssociatedObject(self,placeHolderColorKey, placeHolderColor, OBJC_ASSOCIATION_RETAIN);
 }
