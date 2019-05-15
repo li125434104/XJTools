@@ -19,14 +19,8 @@
 }
 
 - (BOOL)vertifyPassword {
-    NSString * lengthMatch = @"^(.{6,18})$";
-    NSString * numberMatch = @"^(.*\\d+.*)$";
-    NSString * lowerMatch = @"^(.*[a-z]+.*)$";
-    NSString * upperMatch = @"^(.*[A-Z]+.*)$";
-    return [self vertifyStringWithExp: lengthMatch] &&
-    [self vertifyStringWithExp: numberMatch] &&
-    [self vertifyStringWithExp: lowerMatch] &&
-    [self vertifyStringWithExp: upperMatch];
+    NSString *passWordRegex = @"^[a-zA-Z0-9]{6,18}+$";
+    return [self vertifyStringWithExp: passWordRegex];
 }
 
 - (BOOL)vertifyMobilePhone {

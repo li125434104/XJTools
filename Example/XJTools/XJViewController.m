@@ -36,7 +36,8 @@
     textField.placeHolderColor = [UIColor greenColor];
     [self.view addSubview:textField];
     
-    
+    NSString *text = @"d5431a32";
+    NSLog(@"密码%d",[text vertifyPassword]);
 
 }
 - (IBAction)alertBtnClick:(UIButton *)sender {
