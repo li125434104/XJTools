@@ -1,5 +1,5 @@
 PODS:
-  - XJTools (1.0.8)
+  - XJTools (1.0.9)
 
 DEPENDENCIES:
   - XJTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XJTools: e6c084a7577e0ef066e6f8f98c66c5c2d20faf0f
+  XJTools: 90a0b832dd473baf20c59ef4094036d2a3dd8c32
 
 PODFILE CHECKSUM: efe0a332b57538f0c9ec5244fa39dc270d536f0e
 

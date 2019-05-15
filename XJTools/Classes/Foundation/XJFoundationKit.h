@@ -27,7 +27,7 @@
 
 #import "NSURL+Param.h"
 
-#import "NSArray+Extention.h"
+#import "NSArray+Addition.h"
 #import "NSArray+Collection.h"
 #import "NSArray+SafeAccess.h"
 
