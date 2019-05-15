@@ -14,14 +14,34 @@
 #import "NSString+Trims.h"
 #import "NSString+Contains.h"
 #import "NSString+URLEncode.h"
+
 #import "NSData+YYAdd.h"
+
 #import "NSNumber+Extention.h"
+
 #import "NSDate+Addition.h"
+
 #import "NSObject+Addition.h"
 #import "NSObject+AssociatedObject.h"
 #import "NSObject+Swizzle.h"
+
 #import "NSURL+Param.h"
-//#import "NSArray+Extention.h"
-#import "NSData+YYAdd.h"
+
+#import "NSArray+Extention.h"
+#import "NSArray+Collection.h"
+#import "NSArray+SafeAccess.h"
+
+#import "NSBundle+AppIcon.h"
+
+#import "NSDictionary+Addition.h"
+#import "NSDictionary+Collection.h"
+#import "NSDictionary+SafeAccess.h"
+
+#import "NSMutableArray+Queue.h"
+#import "NSMutableArray+SafeAccess.h"
+#import "NSMutableArray+Sort.h"
+#import "NSMutableArray+Stack.h"
+
+#import "NSUserDefaults+SafeAccess.h"
 
 #endif /* XJFoundationKit_h */
