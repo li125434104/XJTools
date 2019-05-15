@@ -7,7 +7,6 @@
 //
 
 #import "NSArray+Collection.h"
-#import "NSString+Collection.h"
 #import <pthread.h>
 #import <objc/runtime.h>
 
